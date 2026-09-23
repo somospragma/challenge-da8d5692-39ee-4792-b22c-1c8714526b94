@@ -1,0 +1,21 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "dev_user",
+    "password": "dev_password",
+    "name": "dev_db"
+  },
+  "s3": {
+    "bucket_name": "dev-data-bucket",
+    "access_key": "dev_access_key",
+    "secret_key": "dev_secret_key"
+  },
+  "airflow": {
+    "dags_folder": "dags/",
+    "sql_alchemy_conn": "sqlite:////tmp/airflow.db"
+  },
+  "idempotency_key": "dev_idempotency_key",
+  "quarantine_folder": "/tmp/quarantine/",  
+  "log_level": "DEBUG"
+}
